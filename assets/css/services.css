@@ -1,5 +1,5 @@
 .service{
-    background: url(../img/Layer_4_about.png) center;
+    background: url(../assets/img/Layer_4_about.png) center;
     height: 80vh;
     background-size: cover;
     padding-top: 40px;
@@ -166,7 +166,8 @@
 
 .price__item span{
     color: #ffffff;
-    background-color: #7beec7;   font-family: Montserrat;
+    background-color: #7beec7;
+    font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     line-height: 48px;
