@@ -13,12 +13,10 @@ ul, li, a{
 }
 
 #header{
-    background: linear-gradient(rgba(206, 206, 206, 0.931), rgba(0, 188, 212, 0.78)), url(/assets/img/Layer_1.png) no-repeat center top;
+    background: linear-gradient(rgba(206, 206, 206, 0.931), rgba(0, 188, 212, 0.78)), url(../img/Layer_1.png) no-repeat center top;
     background-size: cover;
     padding-top: 40px;
     height: 95vh;
-  
-
 }
 
 .menu{
@@ -366,7 +364,7 @@ ul, li, a{
 /* About Us */
 
 .about{
-    background: url(../assets/img/Layer_4_about.png) center;
+    background: url(../img/Layer_4_about.png) center;
     height: 80vh;
     background-size: cover;
     padding-top: 40px;
