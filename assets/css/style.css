@@ -16,12 +16,12 @@ ul, li, a{
     background: linear-gradient(rgba(206, 206, 206, 0.931), rgba(0, 188, 212, 0.78)), url(../img/Layer_1.png) no-repeat center top;
     background-size: cover;
     padding-top: 40px;
-    height: 95vh;
+    height: 110vh;
 }
 
-.menu{
+/* .menu{
    margin-bottom: 210px;
-}
+} */
 
 .menu__item a{
     color: #60606e;
@@ -29,12 +29,15 @@ ul, li, a{
     text-decoration: none;
 }
 
+.title__block{
+    margin-top: 80px;
+}
+
 .title{
     text-align: center;
-    margin-top: 150px;
-    font-size: 18px;
+    margin-top: 10px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 35px;
     text-transform: uppercase;
     background: #ffffff;
     width: 99px;
@@ -44,14 +47,13 @@ ul, li, a{
 .title__main{
     font-size: 48px;
     font-weight: 700;
-    line-height: 48px;
     text-transform: uppercase;
     text-align: center;
     border: 10px solid #60606e;
     width: 586px;
     margin: 0 auto;
     padding: 30px 45px;
-    margin-bottom: 30px;
+    
 }
 
 .title__text{
@@ -61,7 +63,8 @@ ul, li, a{
     line-height: 24px;
     width: 507px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     padding-left: 20px;
 }
 
@@ -69,7 +72,7 @@ ul, li, a{
     color: azure;
     font-size: 30px;
     font-weight: 700;
-    line-height: 48px;
+    
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -79,9 +82,7 @@ ul, li, a{
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
-    line-height: 25px;
     padding-bottom: 20px;
-    width:640px;
 }
 
 .history__but{
@@ -90,12 +91,12 @@ ul, li, a{
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
-    line-height: 48px;
     text-transform: uppercase;
     background-color: #7beec7;
     width: 170px;
-    margin-left: 490px;
-    margin-top: 70px;
+    padding:10px;
+    cursor: pointer;
+    margin-top: 50px;
 }
 
 .history__but:hover,
@@ -108,7 +109,7 @@ ul, li, a{
 
 
 #choose{
-    height: 100vh;
+    height: 140vh;
 }
 
 .subtitle{
