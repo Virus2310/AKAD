@@ -29,6 +29,10 @@ ul, li, a{
     text-decoration: none;
 }
 
+.main__title{
+    margin-top:100px;
+}
+
 .title__block{
     margin-top: 80px;
 }
@@ -156,6 +160,7 @@ ul, li, a{
 .left-sideabar{
     position: relative;
 }
+
 
 
 .main__text{
