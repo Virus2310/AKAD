@@ -236,7 +236,7 @@ a{
 .post_date{
 	font-size: 12px;
 	font-family: "Montserrat", sans-serif;
-	text-transform: uppercase;	
+	text-transform: uppercase;
     color: #9a9a9a;
     margin-right: 15px;
     text-decoration:none;
@@ -270,31 +270,37 @@ a{
 }
 
 .tag_block{
-    margin-top:50px;
+    margin-top:70px;
 }
 
 .tag_title{
     color: #60606e;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.tags > li >a { 
-    display: inline;
-    justify-content:space-between;
-    background-color: #e5e5e5;
-    color: #999999;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 700;text-transform:    uppercase;
-    padding: 10px;
+.tags li{
+    float: left;
     margin-top:5px;
+    margin-right: 5px;
 }
 
-.tags > li>a{
-   
+.tags li a:hover{
+    background-color:wheat;
+
+}
+
+.tags > li >a { 
+    background-color: #d1d1d152;
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;text-transform:    uppercase;
+    padding: 10px;
+    transition:all .2s ease-in-out;
+    text-decoration: none;
 }
 
 
