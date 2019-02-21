@@ -2,6 +2,7 @@
     background: url(../img/Layer_4_about.png) center;
     height: 80vh;
     background-size: cover;
+    background-repeat:no-repeat;
 }
 
 a{
@@ -19,7 +20,6 @@ a{
 
 .right__sidebar{
     margin-top: 150px;
-    
 }
 
 .data__desc{
@@ -249,7 +249,7 @@ a{
 .categories__title{
     color: #60606e;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -276,13 +276,15 @@ a{
 .tag_title{
     color: #60606e;
     font-family: Montserrat;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .tags li{
-    float: left;
+    /* float: left; */
+    display: inline-block;
+    /* flex-wrap:wrap; */
     margin-top:5px;
     margin-right: 5px;
 }
@@ -303,7 +305,17 @@ a{
     text-decoration: none;
 }
 
+.archives__block{
+    margin-top: 50px;
+}
 
+.archives__title{
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 
 /*tab menu*/
