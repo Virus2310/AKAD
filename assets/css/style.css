@@ -13,7 +13,8 @@ ul, li, a{
 }
 
 #header{
-    background: linear-gradient(rgba(206, 206, 206, 0.931), rgba(0, 188, 212, 0.78)), url(../img/Layer_1.png) no-repeat center top;
+    background: linear-gradient(rgba(206, 206, 206, 0.931), rgba(0, 188, 212, 0.78)),
+     url(../img/Layer_1.png) no-repeat center top;
     background-size: cover;
     padding-top: 40px;
     height: 110vh;
