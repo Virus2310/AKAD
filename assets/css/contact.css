@@ -1,0 +1,126 @@
+/* Global Set */
+body{
+    color: #60606e;
+    font-family: "Montserrat", Open Sans,sans-serif;
+    font-size:14px;
+}
+
+
+a:hover, a:focus{
+	text-decoration: none !important;
+}
+
+input{
+    outline: none;
+}
+
+/*
+.row, p, h1, h2, h3, .container-fluid{
+	margin: 0;
+}
+.container, .container-fluid{
+	padding: 0;
+} */
+
+/* Style Contact */
+
+.contact{
+    background: url(../img/Layer_4_about.png) center;
+    height: 80vh;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.main_block{
+    margin-top: 150px;
+}
+
+.wrap_form > input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fefcf9;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.wrap_form > input[placeholder]{
+    color: blue;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-right: 62px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.wrap_form [placeholder]:nth-child(3){
+    padding-right: 333px;
+    color: red;
+}
+
+
+textarea {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fefcf9;
+    outline: none;
+    resize: none;
+
+}
+
+textarea[placeholder]{
+    color: darkgreen;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 15px;
+    /* padding-right: 3px; */
+    /* padding-bottom: px; */
+    padding-left: 10px;
+}
+
+.wrap_form [value]:last-child{
+    border: none;
+    cursor: pointer;
+    background-color: #7beec7;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    margin-top: 30px;
+}
+
+.contact-wrap {
+    margin-top: 70px;
+}
+
+.contact-wrap__title {
+    color: #60606e;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-wrap span{
+    display: block;
+    color: #999999;
+    font-weight: 400;
+    margin-top:10px;
+}
+
+.contact-wrap__email{
+    
+}
+
+.social_menu {
+    margin-top: 10px;
+}
+
+.social_menu__item{
+    margin: 0 10px;
+}
